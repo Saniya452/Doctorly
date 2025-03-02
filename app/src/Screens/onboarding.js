@@ -7,7 +7,6 @@ const {width, height} = Dimensions.get('window');
 const Onboarding = ({navigation}) => {
   return (
     <View style={styles.container}>
-      {/* Image Section */}
       <View style={styles.imageContainer}>
         <Image
           style={styles.image}
@@ -17,14 +16,12 @@ const Onboarding = ({navigation}) => {
         />
       </View>
 
-      {/* Content Section */}
       <View style={styles.content}>
         <Text style={styles.title}>Your Health, Our Priority</Text>
         <Text style={styles.subtitle}>
            Take control of your well-being today with Doctorly!
         </Text>
 
-        {/* Buttons Section */}
         <View style={styles.buttonsContainer}>
           <Button
             onPress={() => navigation.navigate('LoginScreen')}
@@ -38,7 +35,6 @@ const Onboarding = ({navigation}) => {
         </View>
       </View>
 
-      {/* Footer Section */}
       <View />
     </View>
   );

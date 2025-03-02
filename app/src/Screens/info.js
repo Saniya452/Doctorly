@@ -9,10 +9,8 @@ const InfoScreen = ({navigation}) => {
   const [description, setDescription] = useState('');
 
   const handleSubmit = onPress => {
-    // Process the input data or navigate to the next screen
     console.log({name, age, gender, description});
 
-    // Example: navigation.navigate('NextScreen', { name, age, gender, description });
   };
 
   return (
