@@ -16,9 +16,9 @@ const InfoScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Your Info</Text>
       <View style={styles.card}>
         <ScrollView showsVerticalScrollIndicator={false}>
+        <Text style={styles.title}>Your Info</Text>
           <Text style={styles.label}>Name:</Text>
           <TextInput
             style={styles.input}
@@ -88,7 +88,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 20,
-    marginTop: 30,
     textAlign: "center",
   },
   label: {
@@ -111,4 +110,3 @@ const styles = StyleSheet.create({
 });
 
 export default InfoScreen;
-
