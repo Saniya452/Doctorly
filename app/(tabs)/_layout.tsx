@@ -9,6 +9,7 @@ export default function TabLayout() {
       <Tabs.Screen name="login" options={{ headerShown: false }} />
       <Tabs.Screen name="info" options={{ headerShown: false }} />
       <Tabs.Screen name="generalQues" options={{ headerShown: false }} />
+      <Tabs.Screen name="diagnose" options={{ headerShown: false }} />
     </Tabs>
   );
 }
