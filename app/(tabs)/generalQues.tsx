@@ -121,7 +121,7 @@ const Questions = () => {
       ))}
       <Button
         title="Next"
-        onPress={() => router.push("/(tabs)/mcqs")} // Navigate to Login screen
+        onPress={() => router.push("/(tabs)/login")} // Navigate to Login screen
       />
     </ScrollView>
   );
