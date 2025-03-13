@@ -69,13 +69,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: 20,
+    padding: 10,
     backgroundColor: "#d3f5d5",
   },
   card: {
     width: "100%",
     maxWidth: 400,
-    padding: 20,
+    padding: 10,
     backgroundColor: "white",
     borderRadius: 12,
     shadowColor: "#000",
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    marginBottom: 20,
+    marginBottom: 10,
     textAlign: "center",
   },
   label: {
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "grey",
     borderRadius: 8,
-    padding: 10,
+    padding: 8,
     marginBottom: 10,
   },
   textArea: {
